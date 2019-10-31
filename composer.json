@@ -1,5 +1,5 @@
 {
-    "name": "phptek/silverstripe-ajaxpaginator",
+    "name": "phptek/silverstripe-ajaxpaginatedlist",
     "description": "Provides a useful Ajax-powered PaginatedList loading widget.",
     "type": "silverstripe-vendormodule",
     "keywords": ["silverstripe", "frontend", "widgets"],
@@ -19,5 +19,8 @@
     },
     "replace": {
         "silverstripe/frontend": "*"
+    },
+    "extra": {
+        "installer-name": "ajaxpaginatedlist"
     }
 }
