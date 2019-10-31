@@ -52,7 +52,7 @@ There might be more to come ;-) If you have an idea for things that would fit ni
 
 ### 1.0
 
-# SilverStripe 4 support
+* SilverStripe 4 support
 
 ### 0.2
 
@@ -69,9 +69,7 @@ There might be more to come ;-) If you have an idea for things that would fit ni
 
 ## Installation
 
-Add following line to your `composer.json` and run `composer update`:
-
-	"mateusz/frontend": "*"
+    #> composer require phptek/silverstripe-ajaxpaginatedlist
 	
 Note the package name has recently been changed from `silverstripe/frontend`, but both names should still work. The
 former is preferred for future compatibility.
