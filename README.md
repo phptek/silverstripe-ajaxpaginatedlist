@@ -1,4 +1,7 @@
-# SilverStripe frontend
+# SilverStripe AjaxPaginatedList
+
+This module was originally developed for SilverStripe 3 by Mateusz Udowski in 2012. This fork has been lightly modified to work in a namespaced setup
+using SilverStripe 4. It retains all of the old jQuery schizz though :-\
 
 ## tl;dr
 
@@ -7,7 +10,7 @@ Enable AJAX pagination in SilverStripe in three easy steps!
 * Step 1: wrap your `DataList` with a list decorator:
 
 	```php
-	$pages = new AjaxPaginatedList(Page::get(), $this->request);
+	$pages = AjaxPaginatedList::create(Page::get(), $this->request);
 	```
 
 * Step 2a: add pagination metadata markup into your template:
@@ -35,17 +38,21 @@ There might be more to come ;-) If you have an idea for things that would fit ni
 
 ## Maintainer
 
-[Mateusz Uzdowski](mailto:mateusz@silverstripe.com)
+[Russell Michell](mailto:russ@theruss.com)
 
 ## Requirements
 
-* SilverStripe 3
+* SilverStripe 4
 * jQuery
 * jQuery UI
-* underscore.js (include `frontend/javascript/underscore.js`)
+* underscore.js (include `javascript/underscore.js`)
 * lib.js (include `framework/admin/javascript/lib.js`)
 
 ## Changelog
+
+### 1.0
+
+# SilverStripe 4 support
 
 ### 0.2
 
